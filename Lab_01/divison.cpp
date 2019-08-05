@@ -110,7 +110,8 @@ int main()
             str.push_back(k+'0');
         }
         str.erase(0,str.find_first_not_of('0'));
-        cout<<str<<endl<<x<<endl;
+        cout<<str<<endl;
+        cout<<x<<endl;
     }
 
     return 0;
